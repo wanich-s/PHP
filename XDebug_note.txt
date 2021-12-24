@@ -1,0 +1,16 @@
+Download xdebug dll
+    echo phpinfo();
+    exit;
+    url: https://xdebug.org/wizard
+Coppy to D:\xampp\php\ext
+Rename to php_xdebug.dll
+Update D:\xampp\php\php.ini
+    [XDebug]
+    xdebug.remote_enable=1
+    xdebug.remote_autostart=1
+    zend_extension="D:\xampp\php\ext\php_xdebug.dll"
+Install php debug extention on vscode
+
+VScode : Run => Add Configuration => php
+
+Ready to debug

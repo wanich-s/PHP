@@ -1,0 +1,8 @@
+--filter 'testMethod#2'
+--filter 'testMethod#2-4'
+--filter '#2'
+--filter '#2-4'
+--filter 'testMethod@my named data'
+--filter 'testMethod@my.*data'
+--filter '@my named data'
+--filter '@my.*data'

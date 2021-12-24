@@ -1,0 +1,8 @@
+--filter 'TestNamespace\\TestCaseClass::testMethod'
+--filter 'TestNamespace\\TestCaseClass'
+--filter TestNamespace
+--filter TestCaseClass
+--filter testMethod
+--filter '/::testMethod .*"my named data"/'
+--filter '/::testMethod .*#5$/'
+--filter '/::testMethod .*#(5|6|7)$/'

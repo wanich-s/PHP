@@ -1,0 +1,6 @@
+Download: 
+    php.net/downloads -> Windows downloads
+Add path: C:\php
+
+Web Server:
+cmd: php -S localhost:4000
