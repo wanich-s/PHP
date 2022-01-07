@@ -1,7 +1,9 @@
 Installation:
-cmd: composer require --dev phpunit/phpunit ^9.5
-Check Version:
-cmd: ./vendor/bin/phpunit --version
+install composer
+install phpunit:
+    cmd: composer require --dev phpunit/phpunit ^9.5
+Check phpunit Version:
+    cmd: ./vendor/bin/phpunit --version
 Create phpunit.xml file
     <?xml version="1.0" encoding="UTF-8" ?>
     <phpunit bootstrap="vendor/autoload.php"
