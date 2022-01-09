@@ -18,7 +18,7 @@ Create phpunit.xml file
 
 Create Dir: tests
 
-Create Dir: app
+Create Dir: src
 
 composer.json: 
 {
